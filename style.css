@@ -1,0 +1,314 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+
+    font-weight: bold; 
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    padding-right: 80px;
+    padding-left: 80px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    transition: background-color 0.3s ease; 
+    border-radius:#009ad8  ;
+}
+
+
+
+.container {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 40px 5px;
+  width: 80%;
+  margin:  auto;
+  /
+}
+    
+header h1 {
+    margin: 0;
+    
+}
+header nav ul .ONE{
+    color: #009ad8;
+    border-radius: 25px;
+    border: 2px solid #009ad8 ;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    width: 100px;
+    height: 40px
+}
+
+header nav ul {
+    list-style: none;
+    text-align: center;
+    display: flex; 
+    justify-content: center; 
+
+    line-height: 2.5;
+   
+}
+
+header nav li {
+    margin-right: 20px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease; 
+}
+
+header nav a:hover {
+    border-color: #009ad8 ;
+    color: #009ad8;
+    
+    
+} 
+
+.search {
+  background-image: url('WhatsApp Image 2024-06-29 at 12.07.48 AM.jpeg');
+  background-size: 100% auto;
+  
+  background-repeat: no-repeat;
+    background-color: #0d0d0e;
+    padding: 80px;
+    text-align: center;
+    color:#ebecf1 ;
+}
+
+.search input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+      background-color: #1e202b;
+      color:#ebecf1 ;
+}
+
+.search button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.search button:hover {
+  background-color: #0056b3;
+}
+
+#leftbox {
+    float: left;
+    
+    width: 30%;
+    height: 280px;
+}
+
+#middlebox {
+    float: left;
+    
+    width: 40%;
+    height: 280px;
+}
+
+#rightbox {
+    float: right;
+    
+    width: 30%;
+    height: 280px;
+}
+.info1 {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #1e202b;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .info1 p {
+    margin-bottom: 10px;
+  }
+  
+  .info1 p:first-child {
+    padding-top: 0;
+    margin-top: 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    color: #bfc1c8;
+   
+  }
+  
+  .info1 p:nth-child(2) {
+    font-size: 25px;
+    color: #666;
+  }
+  
+  .info1 p:nth-child(3) {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .info1 p:nth-child(4) {
+    font-size: 15px;
+    color: #009ad8;
+  }
+  
+  .info1 p:last-child {
+    font-size: 14px;
+    color: #666;
+    padding-top: 35px;
+
+  }
+  .info2 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color :#1e202b;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .info2 p {
+    margin-bottom: 10px;
+  }
+  
+  .info2 p:first-child {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    color: #00698f;
+  }
+  
+  .info2 p:nth-child(2) {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .info2 p:nth-child(3) {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .info2 p:nth-child(4) {
+    font-size: 16px;
+    padding-bottom:80px ;
+    color:#00698f ;
+  }
+  
+  
+  
+  .info3 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #1e202b;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .info3 p {
+    margin-bottom: 10px;
+  }
+  
+  .info3 p:first-child {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    color: #00698f;
+  }
+  
+  .info3 p:nth-child(2) {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .info3 p:nth-child(3) {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+  
+  }
+  #boxes {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  
+  /* Add animation when the boxes become visible */
+ 
+  
+  .info3 p:nth-child(4) {
+    font-size: 16px;
+    color: #00698f;
+    padding-bottom: 80px;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+ 
+  footer {
+    background-color:  #1e202b;;
+    color: white;
+  
+    padding: 80px;
+    margin-bottom: 10px;
+  }
+  
+  .subscribe input[type="email"] {
+    width: 800px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    font-size: 1em;
+    background-color:   #1e202b;
+    color: white;;
+  }
+  
+  
+  .subscribe button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  .subscribe button:hover {
+    background-color: #0056b3;
+  }
+  
+  .copyright {
+    margin-top:30px;
+    margin-left: 0;
+   
+  }
+  
